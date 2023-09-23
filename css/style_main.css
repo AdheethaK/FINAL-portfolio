@@ -1,5 +1,6 @@
 *{
     font-family: Oxygen;
+    /*overflow: hidden;*/
 }
 /*#box-1{*/
 /*    border: 1px solid blue;*/
@@ -49,6 +50,7 @@
 
 /*header*/
 header>#menu>li{
+    -webkit-text-fill-color: grey;
     display: inline-block;
     margin-top: 3vh;
     margin-right: 5vw;
@@ -103,6 +105,7 @@ header>#menu>li:nth-child(3){
     top: 50%;
     left: 1%;
     transform: translate(-50%, -50%);
+    z-index: 999;
 }
 ul{
     list-style: none;
@@ -202,6 +205,330 @@ ul li:hover .slider p{
     opacity: 1;
     transition: all 1s 0.2s ease;
 }
+/*ADHEETHA*/
+.body{
+    background: #fff;
+    background: -webkit-radial-gradient(#fff, #eaeaea);
+    background: -o-radial-gradient(#fff, #eaeaea);
+    background: -moz-radial-gradient(#fff, #eaeaea);
+    background: radial-gradient(#fff, #eaeaea);
+}
+.container{
+    width: calc((100% / 4) - 8px);
+    aspect-ratio: 1/1;
+    margin: 1px;
+}
+.letter{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin: auto;
+}
+#A-one-letter{
+    position: absolute;
+    left: 180px;
+    top: 200px;
+}
+#D-letter{
+    position: absolute;
+    left: 320px;
+    top: 189px;
+}
+#H-one-letter{
+    position: absolute;
+    left: 420px;
+    top: 193px;
+}
+/*H-one animation*/
+.H-one-left-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: H-one-left-move 20s ease forwards;
+}
+@keyframes H-one-left-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    5%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.H-one-mid-stroke{
+    stroke-dasharray: 37px;
+    stroke-dashoffset: 37px;
+    animation: H-one-mid-move 9s ease forwards;
+}
+@keyframes H-one-mid-move {
+    0%{
+        stroke-dashoffset: 37px;
+    }
+    5%{
+        stroke-dashoffset: 37px;
+    }
+    10%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.H-one-right-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: H-one-right-move 13s ease forwards;
+}
+@keyframes H-one-right-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    5%{
+        stroke-dashoffset: 124px;
+    }
+    10%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+#E-one-letter{
+    position: absolute;
+    left: 420px;
+    top: 200px;
+}
+/*E-one Animation*/
+.E-one-left-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: E-one-left-move 20s ease forwards;
+}
+@keyframes E-one-left-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    2%{
+        stroke-dashoffset: 124px;
+    }
+    6%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-one-top-stroke{
+    stroke-dasharray: 47px;
+    stroke-dashoffset: 47px;
+    animation: E-one-top-move 10s ease forwards;
+}
+@keyframes E-one-top-move {
+    0%{
+        stroke-dashoffset: 47px;
+    }
+    6%{
+        stroke-dashoffset: 47px;
+    }
+    11%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-one-mid-stroke{
+    stroke-dasharray: 42px;
+    stroke-dashoffset: 42px;
+    animation: E-one-mid-move 10s ease forwards;
+}
+@keyframes E-one-mid-move {
+    0%{
+        stroke-dashoffset: 42px;
+    }
+    8%{
+        stroke-dashoffset: 42px;
+    }
+    13%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-one-bottom-stroke{
+    stroke-dasharray: 47px;
+    stroke-dashoffset: 47px;
+    animation: E-one-bottom-move 10s ease forwards;
+}
+@keyframes E-one-bottom-move {
+    0%{
+        stroke-dashoffset: 47px;
+    }
+    11%{
+        stroke-dashoffset: 47px;
+    }
+    16%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+#E-two-letter{
+    position: absolute;
+    left: 525px;
+    top: 200px;
+}
+/*E-two Animation*/
+.E-two-left-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: E-two-left-move 20s ease forwards;
+}
+@keyframes E-two-left-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    2%{
+        stroke-dashoffset: 124px;
+    }
+    6%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-two-top-stroke{
+    stroke-dasharray: 47px;
+    stroke-dashoffset: 47px;
+    animation: E-two-top-move 10s ease forwards;
+}
+@keyframes E-two-top-move {
+    0%{
+        stroke-dashoffset: 47px;
+    }
+    6%{
+        stroke-dashoffset: 47px;
+    }
+    11%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-two-mid-stroke{
+    stroke-dasharray: 42px;
+    stroke-dashoffset: 42px;
+    animation: E-one-mid-move 10s ease forwards;
+}
+@keyframes E-two-mid-move {
+    0%{
+        stroke-dashoffset: 42px;
+    }
+    8%{
+        stroke-dashoffset: 42px;
+    }
+    13%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.E-two-bottom-stroke{
+    stroke-dasharray: 47px;
+    stroke-dashoffset: 47px;
+    animation: E-one-bottom-move 10s ease forwards;
+}
+@keyframes E-two-bottom-move {
+    0%{
+        stroke-dashoffset: 47px;
+    }
+    11%{
+        stroke-dashoffset: 47px;
+    }
+    16%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+#T-letter{
+    position: absolute;
+    left: 730px;
+    top: 200px;
+}
+#H-two-letter{
+    position: absolute;
+    left: 830px;
+    top: 200px;
+}
+/*H-two animation*/
+.H-two-left-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: H-two-left-move 50s ease forwards;
+}
+@keyframes H-two-left-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    5%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.H-two-mid-stroke{
+    stroke-dasharray: 37px;
+    stroke-dashoffset: 37px;
+    animation: H-two-mid-move 9s ease forwards;
+}
+@keyframes H-two-mid-move {
+    0%{
+        stroke-dashoffset: 37px;
+    }
+    5%{
+        stroke-dashoffset: 37px;
+    }
+    10%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+.H-two-right-stroke{
+    stroke-dasharray: 124px;
+    stroke-dashoffset: 124px;
+    animation: H-two-right-move 13s ease forwards;
+}
+@keyframes H-two-right-move {
+    0%{
+        stroke-dashoffset: 124px;
+    }
+    5%{
+        stroke-dashoffset: 124px;
+    }
+    10%{
+        stroke-dashoffset: 0px;
+    }
+    100%{
+        stroke-dashoffset: 0px;
+    }
+}
+#A-two-letter{
+    position: absolute;
+    left: 950px;
+    top: 200px;
+}
+/*----------------------------*/
 #page-about-me{
     opacity: 0;
 }
