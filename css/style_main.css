@@ -1,7 +1,4 @@
-*{
-    font-family: Oxygen;
-    /*overflow: hidden;*/
-}
+
 /*#box-1{*/
 /*    border: 1px solid blue;*/
 /*    width: 30em;*/
@@ -50,6 +47,7 @@
 
 /*header*/
 header>#menu>li{
+    font-family: Oxygen;
     -webkit-text-fill-color: grey;
     display: inline-block;
     margin-top: 3vh;
@@ -106,6 +104,7 @@ header>#menu>li:nth-child(3){
     left: 1%;
     transform: translate(-50%, -50%);
     z-index: 999;
+    opacity: 0.85;
 }
 ul{
     list-style: none;
@@ -205,431 +204,291 @@ ul li:hover .slider p{
     opacity: 1;
     transition: all 1s 0.2s ease;
 }
-/*ADHEETHA*/
-.body{
-    background: #fff;
-    background: -webkit-radial-gradient(#fff, #eaeaea);
-    background: -o-radial-gradient(#fff, #eaeaea);
-    background: -moz-radial-gradient(#fff, #eaeaea);
-    background: radial-gradient(#fff, #eaeaea);
-}
-.container{
-    width: calc((100% / 4) - 8px);
-    aspect-ratio: 1/1;
-    margin: 1px;
-}
-.letter{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    margin: auto;
-}
-#A-one-letter{
-    position: absolute;
-    left: 180px;
-    top: 200px;
-}
-#D-letter{
-    position: absolute;
-    left: 320px;
-    top: 189px;
-}
-#H-one-letter{
-    position: absolute;
-    left: 420px;
-    top: 193px;
-}
-/*H-one animation*/
-.H-one-left-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: H-one-left-move 20s ease forwards;
-}
-@keyframes H-one-left-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    5%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.H-one-mid-stroke{
-    stroke-dasharray: 37px;
-    stroke-dashoffset: 37px;
-    animation: H-one-mid-move 9s ease forwards;
-}
-@keyframes H-one-mid-move {
-    0%{
-        stroke-dashoffset: 37px;
-    }
-    5%{
-        stroke-dashoffset: 37px;
-    }
-    10%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.H-one-right-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: H-one-right-move 13s ease forwards;
-}
-@keyframes H-one-right-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    5%{
-        stroke-dashoffset: 124px;
-    }
-    10%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-#E-one-letter{
-    position: absolute;
-    left: 420px;
-    top: 200px;
-}
-/*E-one Animation*/
-.E-one-left-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: E-one-left-move 20s ease forwards;
-}
-@keyframes E-one-left-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    2%{
-        stroke-dashoffset: 124px;
-    }
-    6%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-one-top-stroke{
-    stroke-dasharray: 47px;
-    stroke-dashoffset: 47px;
-    animation: E-one-top-move 10s ease forwards;
-}
-@keyframes E-one-top-move {
-    0%{
-        stroke-dashoffset: 47px;
-    }
-    6%{
-        stroke-dashoffset: 47px;
-    }
-    11%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-one-mid-stroke{
-    stroke-dasharray: 42px;
-    stroke-dashoffset: 42px;
-    animation: E-one-mid-move 10s ease forwards;
-}
-@keyframes E-one-mid-move {
-    0%{
-        stroke-dashoffset: 42px;
-    }
-    8%{
-        stroke-dashoffset: 42px;
-    }
-    13%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-one-bottom-stroke{
-    stroke-dasharray: 47px;
-    stroke-dashoffset: 47px;
-    animation: E-one-bottom-move 10s ease forwards;
-}
-@keyframes E-one-bottom-move {
-    0%{
-        stroke-dashoffset: 47px;
-    }
-    11%{
-        stroke-dashoffset: 47px;
-    }
-    16%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-#E-two-letter{
-    position: absolute;
-    left: 525px;
-    top: 200px;
-}
-/*E-two Animation*/
-.E-two-left-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: E-two-left-move 20s ease forwards;
-}
-@keyframes E-two-left-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    2%{
-        stroke-dashoffset: 124px;
-    }
-    6%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-two-top-stroke{
-    stroke-dasharray: 47px;
-    stroke-dashoffset: 47px;
-    animation: E-two-top-move 10s ease forwards;
-}
-@keyframes E-two-top-move {
-    0%{
-        stroke-dashoffset: 47px;
-    }
-    6%{
-        stroke-dashoffset: 47px;
-    }
-    11%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-two-mid-stroke{
-    stroke-dasharray: 42px;
-    stroke-dashoffset: 42px;
-    animation: E-one-mid-move 10s ease forwards;
-}
-@keyframes E-two-mid-move {
-    0%{
-        stroke-dashoffset: 42px;
-    }
-    8%{
-        stroke-dashoffset: 42px;
-    }
-    13%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.E-two-bottom-stroke{
-    stroke-dasharray: 47px;
-    stroke-dashoffset: 47px;
-    animation: E-one-bottom-move 10s ease forwards;
-}
-@keyframes E-two-bottom-move {
-    0%{
-        stroke-dashoffset: 47px;
-    }
-    11%{
-        stroke-dashoffset: 47px;
-    }
-    16%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-#T-letter{
-    position: absolute;
-    left: 730px;
-    top: 200px;
-}
-/*T Animation*/
-.T-horizontal-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: T-horizontal-move 20s ease forwards;
-}
-@keyframes T-horizontal-move {
-    0%{
-        stroke-dashoffset: 47px;
-    }
-    6%{
-        stroke-dashoffset: 47px;
-    }
-    11%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-#H-two-letter{
-    position: absolute;
-    left: 830px;
-    top: 200px;
-}
-/*H-two animation*/
-.H-two-left-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: H-two-left-move 50s ease forwards;
-}
-@keyframes H-two-left-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    5%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.H-two-mid-stroke{
-    stroke-dasharray: 37px;
-    stroke-dashoffset: 37px;
-    animation: H-two-mid-move 9s ease forwards;
-}
-@keyframes H-two-mid-move {
-    0%{
-        stroke-dashoffset: 37px;
-    }
-    5%{
-        stroke-dashoffset: 37px;
-    }
-    10%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-.H-two-right-stroke{
-    stroke-dasharray: 124px;
-    stroke-dashoffset: 124px;
-    animation: H-two-right-move 13s ease forwards;
-}
-@keyframes H-two-right-move {
-    0%{
-        stroke-dashoffset: 124px;
-    }
-    5%{
-        stroke-dashoffset: 124px;
-    }
-    10%{
-        stroke-dashoffset: 0px;
-    }
-    100%{
-        stroke-dashoffset: 0px;
-    }
-}
-#A-two-letter{
-    position: absolute;
-    left: 950px;
-    top: 200px;
-}
-/*----------------------------*/
-body
-{
-    margin:0;
-    padding:0;
-    background-color:transparent;
-}
-
-.editorial {
-    display: block;
+/*---------------HOME---------------------*/
+.section-my-name{
+    height: 50%;
     width: 100%;
-    height: 60px;
-    max-height: 60px;
-    margin: 0;
-    z-index:5;
-    bottom:0;
-    position:absolute;
-    left:0px;
-    float:left;
-}
+    position: absolute;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
-.parallax1 > use {
-    animation: move-forever1 10s linear infinite;
-&:nth-child(1) {
-     animation-delay: -2s;
- }
+    animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
 }
-.parallax2 > use {
-    animation: move-forever2 8s linear infinite;
-&:nth-child(1) {
-     animation-delay: -2s;
- }
+#section-1{
+    background-color: white;
+    -webkit-text-fill-color: grey;
+    font-size: 13vw;
+    top: 50px;
 }
-.parallax3 > use {
-    animation: move-forever3 6s linear infinite;
-&:nth-child(1) {
-     animation-delay: -2s;
- }
+#section-2{
+    background-color: yellow;
+    top: 50vh;
+    -webkit-text-fill-color: black;
+    font-size: 11vw;
 }
-.parallax4 > use {
-    animation: move-forever4 4s linear infinite;
-&:nth-child(1) {
-     animation-delay: -2s;
- }
+.tilt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: tilting 10s cubic-bezier(0.37,0,0.63,1) infinite;
 }
-@keyframes move-forever1 {
-    0% {
-        transform: translate(85px, 0%);
+section > span {
+    transition: font-weight 0.4s ease-in;
+    animation: floating-secondary 2.5s cubic-bezier(0.37,0,0.63,1) infinite;
+}
+section > span:nth-child(1){
+    animation-delay: 1s;
+}
+section > span:nth-child(2){
+    animation-delay: 2s;
+}
+section > span:nth-child(3){
+    animation-delay: 3s;
+}
+section > span:nth-child(4){
+    animation-delay: 4s;
+}
+section > span:nth-child(5){
+    animation-delay: 5s;
+}
+section > span:nth-child(6){
+    animation-delay: 6s;
+}
+section > span:nth-child(7){
+    animation-delay: 7s;
+}
+section > span:hover{
+    font-weight: 100;
+}
+@keyframes floating {
+    0%{
+       transform: translate(0,0);
     }
-    100% {
-        transform: translate(-90px, 0%);
+    50%{
+        transform: translate(0,5vh);
+    }
+    100%{
+        transform: translate(0,0);
     }
 }
-@keyframes move-forever2 {
-    0% {
-        transform: translate(-90px, 0%);
+@keyframes floating-secondary {
+    0%{
+       transform: translate(0,0);
     }
-    100% {
-        transform: translate(85px, 0%);
+    50%{
+        transform: translate(0,1vh);
     }
-}
-@keyframes move-forever3 {
-    0% {
-        transform: translate(85px, 0%);
-    }
-    100% {
-        transform: translate(-90px, 0%);
+    100%{
+        transform: translate(0,0);
     }
 }
-@keyframes move-forever4 {
-    0% {
-        transform: translate(-90px, 0%);
+@keyframes tilting {
+    0%{
+        transform: rotate(1deg);
     }
-    100% {
-        transform: translate(85px, 0%);
+    50%{
+        transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(1deg);
     }
 }
-
 /*-----------------------------*/
 #page-about-me{
-    opacity: 0;
+    position: absolute;
+    top: 100vh;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #3b5998;
+
 }
+#page-about-me>h3{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+
+    font-size: 100px;
+    font-weight: bolder;
+    -webkit-text-fill-color: darkslategrey;
+}
+#page-about-me>p{
+    position: absolute;
+    left: 30px;
+    top: 250px;
+    -webkit-text-fill-color: grey;
+    font-size: 20px;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+/*#screen{*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*    background-color: crimson;*/
+
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 50px;*/
+/*    cursor: none;*/
+/*}*/
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: white; /*#5cd8fd;*/
+}
+body .bear {
+    position: absolute;
+    right: 6%;
+    bottom: 0;
+    width: 440px;
+    height: 470px;
+    margin-left: -220px;
+    border-radius: 220px 220px 0 0;
+    background: #fff;
+    cursor: none;
+}
+body .bear .ears-container {
+    position: absolute;
+    width: 530px;
+    height: 120px;
+    left: 50%;
+    top: 40px;
+    margin-left: -265px;
+}
+body .bear .ears-container .ear {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+}
+body .bear .ears-container .ear:last-child {
+    float: right;
+}
+body .bear #limit {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 240px;
+    height: 270px;
+    margin-left: -120px;
+}
+body .bear #limit #face {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    width: 140px;
+    height: 230px;
+    margin-left: -70px;
+}
+body .bear #limit #face .eyes-container {
+    position: relative;
+    left: 50%;
+    width: 82px;
+    height: 20px;
+    margin-left: -41px;
+}
+body .bear #limit #face .eyes-container .eye {
+    float: left;
+    width: 20px;
+    height: 100%;
+    border-radius: 50%;
+    background: #000;
+}
+body .bear #limit #face .eyes-container .eye:last-child {
+    float: right;
+}
+body .bear #limit #face .phiz-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 100px;
+    background: #def9fe;
+}
+body .bear #limit #face .phiz-container #nose {
+    position: relative;
+    left: 50%;
+    top: 6%;
+    width: 88px;
+    height: 88px;
+    margin-left: -44px;
+    border-radius: 50%;
+    background: #000;
+}
+body .bear #limit #face .phiz-container #nose .dot {
+    position: relative;
+    left: 16%;
+    top: 16%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+body .bear #limit #face .phiz-container .mouth {
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    width: 24px;
+    height: 8px;
+    margin-left: -12px;
+    border-radius: 8px;
+    background: #000;
+}
+body #fish {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20px;
+    height: 74px;
+    margin-left: -10px;
+    margin-top: -37px;
+}
+body #fish .head {
+    width: 100%;
+    height: 60px;
+    border-radius: 50%;
+    background: #adadad;
+}
+body #fish .head .fish-eye {
+    position: relative;
+    left: 10px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+body #fish .fins {
+    position: absolute;
+    left: -7px;
+    top: 24px;
+    width: 22px;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 16px solid #adadad;
+}
+body #fish .tail {
+    position: relative;
+    left: -6px;
+    top: -2px;
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid #adadad;
+}
+/*-----------------------------*/
+/*#page-about-me{*/
+/*    opacity: 0;*/
+/*}*/
 #page-assignment{
     opacity: 0;
 }
