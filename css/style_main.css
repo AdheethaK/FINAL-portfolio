@@ -301,67 +301,205 @@ section > span:hover{
 #page-about-me{
     position: absolute;
     top: 100vh;
-
     height: 100%;
     width: 100%;
     background-color: white;
+    overflow-y: hidden;
 }
 #page-about-me>div{
     height: 100%;
     width: 100%;
-    border: 1px solid grey;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,1fr);
 }
 #page-about-me>div>div{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 }
 #page-about-me>div>div:first-child{
-    background-color: red;
+    background-color: white;
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    font-size: 100px;
+    position: relative;
+}
+#page-about-me>div>div:first-child>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
 }
 #page-about-me>div>div:nth-child(2){
-    background-color: yellow;
+    background-image: -webkit-repeating-radial-gradient(circle,lightgrey,lightgrey 3px,transparent 3px,transparent 100%);
+    background-size: 13px 16px;
+    animation: slide 4s linear infinite;
+}
+@keyframes slide {
+    from{
+        background-position-x: 0;
+    }
+    to{
+        background-position-x: -300px;
+    }
 }
 #page-about-me>div>div:nth-child(3){
-    background-color: purple;
+    background-color: pink;
 }
 #page-about-me>div>div:nth-child(4){
-    background-color: cadetblue;
+    background-color: white;
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    font-size: 100px;
+    position: relative;
+}
+#page-about-me>div>div:nth-child(4)>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
+    alignment: left;
 }
 #page-about-me>div>div:nth-child(5){
-    background-color: deeppink;
+    background-color: pink;
 }
 #page-about-me>div>div:nth-child(6){
-    background-color: mediumseagreen;
+    background-color: white;
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    font-size: 100px;
+    position: relative;
+}
+#page-about-me>div>div:nth-child(6)>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
+    alignment: center;
 }
 #page-about-me>div>div:nth-child(7){
-    background-color: darkslategrey;
+    background-color: lightgrey;
     grid-column: 3/5;
     grid-row: 2/4;
 }
 #page-about-me>div>div:nth-child(8){
-    background-color: greenyellow;
+    background-color: white;
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    font-size: 100px;
+    position: relative;
+}
+#page-about-me>div>div:nth-child(8)>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
+    alignment: center;
 }
 #page-about-me>div>div:nth-child(9){
-    background-color: darkseagreen;
+    background-image: repeating-linear-gradient(45deg,lightgrey,lightgrey 4px,#fff 4px,#fff 12px);
+    animation: spin 4s linear infinite;
+}
+@keyframes spin {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position:0 220px;
+    }
 }
 #page-about-me>div>div:nth-child(10){
-    background-color: lightgreen;
+    background-color: white;
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    font-size: 150px;
+    position: relative;
     grid-column: 1/3;
+    animation: move-to-side 6s infinite ease-in;
+}
+@keyframes move-to-side {
+    0%{
+        width: 100%;
+    }
+    50%{
+        width: 150%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+#page-about-me>div>div:nth-child(10)>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
+    alignment: left;
+
+    animation: move-to-side-p 5s infinite ease-in-out;
+    position: absolute;
+}
+@keyframes move-to-side-p {
+    0%{
+        right: -5px;
+    }
+    50%{
+        right: 40px;
+    }
+    100%{
+        right: -5px;
+    }
 }
 #page-about-me>div>div:nth-child(11){
-    background-color: peru;
+    background:
+            linear-gradient(135deg,#fff 32%,transparent 32%) -15px 0,
+            linear-gradient(225deg,#fff 32%, transparent 32%) -15px 0,
+            linear-gradient(315deg,#fff 32%,transparent 32%),
+            linear-gradient(45deg,#fff 32%,transparent 32%);
+    background-size: 30px 30px;
+    background-color: lightgrey;
+    background-repeat: repeat;
+    min-width: 10px;
+    animation: slide-up 4s infinite linear,shrink 1.7s infinite ease-out;
 }
+@keyframes slide-up {
+    0%{
+        background-position-y: 0;
+    }
+    100%{
+        background-position-y: -300px;
+    }
+}
+/*@keyframes shrink {*/
+/*    0%{*/
+/*        width: 100%;*/
+/*    }*/
+/*    50%{*/
+/*        width: 0;*/
+/*    }*/
+/*    100%{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 #page-about-me>div>div:nth-child(12){
-    background-color: darkolivegreen;
+    background-color: white;
+    font-family: Oxygen;
+    font-size: 150px;
+    position: relative;
+    -webkit-text-fill-color: grey;
+}
+#page-about-me>div>div:nth-child(12)>p{
+    margin-bottom: 30px;
+    margin-top: 1px;
+    margin-left: 20px;
+    alignment: left;
+}
+#page-about-me>div>div:nth-child(12)>#contacts{
+    font-family: Oxygen;
+    font-size: 15px;
+    position: absolute;
+    top: 70px;
+    right: 100px;
 }
 /*-----------------------------*/
 /*#page-about-me{*/
 /*    opacity: 0;*/
 /*}*/
 #page-home{
-    opacity: 0;
+    opacity: 1;
 }
 #page-assignment{
     opacity: 0;
@@ -370,5 +508,5 @@ section > span:hover{
     opacity: 0;
 }
 #page-contact{
-    opacity: 0;
+    opacity: 0.9;
 }
