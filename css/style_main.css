@@ -337,22 +337,44 @@ section > span:hover{
 
     animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
 }
-#left-side>h7{
-    font-family: Oxygen;
-    -webkit-text-fill-color: #2E2328;
-    font-size: 30px;
-    font-weight: 100;
-}
 #label-technology{
     font-family: Oxygen;
-    -webkit-text-fill-color: #2E2328;
+    -webkit-text-fill-color: grey;
     position: absolute;
     left: 45px;
-    top: 480px;
+    top: 420px;
+    opacity: 0;
+}
+#technology-grid{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    position: absolute;
+    top: 465px;
+    left: 60px;
+    -webkit-text-fill-color: grey;
+    opacity: 0.8;
+}
+#technology-grid>div{
+    width: 50px;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin: 5px;
+}
+.img-label{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+#technology-grid>div>p{
+    font-family: Oxygen;
+    font-size: 12px;
+    position: absolute;
+    left: 58px;
+    top: 6px;
 }
 #label-contact{
     font-family: Oxygen;
-    -webkit-text-fill-color: #2E2328;
+    -webkit-text-fill-color: grey;
     position: absolute;
     left: 45px;
     top: 600px;
