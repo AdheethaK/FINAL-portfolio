@@ -1,0 +1,79 @@
+/*-------------ASSIGNMENTS---------------*/
+#page-assignment{
+    position: absolute;
+    top: 200vh;
+    height: 150%;
+    width: 100%;
+    background-color: white;
+    overflow-y: hidden;
+    position: absolute;
+}
+#page-assignment>h3{
+    -webkit-text-fill-color: #2E2328;
+    font-size: 8vw;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
+}
+.vertical-line-assignment{
+    width: 2%;
+    height: 6%;
+
+    border-radius: 5px;
+
+    position: absolute;
+    background-color: #ADADAD;
+}
+.vertical-line-assignment:first-of-type{
+    top: 40%;
+    left: 3%;
+}
+.vertical-line-assignment:nth-of-type(2){
+    top: 50%;
+    left: 3%;
+}
+.vertical-line-assignment:nth-of-type(3){
+    top: 60%;
+    left: 3%;
+}
+.vertical-line-assignment:nth-of-type(4){
+    top: 70%;
+    left: 3%;
+}
+.vertical-line-assignment:nth-of-type(5){
+    top: 80%;
+    left: 3%;
+}
+#page-assignment>h1{
+    font-family: "Inter",sans-serif;
+    font-weight: 1000;
+    font-size: 4em;
+    -webkit-text-fill-color: #ADADAD;
+
+    position: absolute;
+}
+#page-assignment>h1:first-of-type{
+    top: 35.5%;
+    left: 6.5%;
+}
+#page-assignment>h1:nth-of-type(2){
+    top: 45.5%;
+    left: 6.5%;
+}
+#page-assignment>h1:nth-of-type(3){
+    top: 55.5%;
+    left: 6.5%;
+}
+#page-assignment>h1:nth-of-type(4){
+    top: 65.5%;
+    left: 6.5%;
+}
+#page-assignment>h1:nth-of-type(5){
+    top: 75.5%;
+    left: 6.5%;
+}
+/*-----------------------------------------------*/
