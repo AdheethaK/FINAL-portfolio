@@ -425,11 +425,20 @@ section > span:hover{
     right: 0;
     margin: auto;
 
-    background-color: #ADADAD;
+    background-color: #000000; /*#ADADAD*/
     width: 70%;
     aspect-ratio: 1/1;
     border-radius: 40px;
     z-index: 100;
+}
+.photo>img{
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .photo-background{
     position: absolute;

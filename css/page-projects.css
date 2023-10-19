@@ -1,0 +1,10 @@
+/*----------------------PAGE PROJECTS-----------------------*/
+#page-project{
+    position: absolute;
+    top: 300vh;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow-y: hidden;
+    position: absolute;
+}
