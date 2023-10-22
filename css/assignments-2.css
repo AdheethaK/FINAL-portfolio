@@ -53,147 +53,30 @@ header{
     }
 }
 /*---------------------------content---------------------------*/
-content{
+.pane{
     width: 100%;
     height: 80%;
 
-    /*background: #3b5998;*/
-
     position: absolute;
-    top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    margin: auto;
-}
-.case-pane{
+    top: 70px;
+
     opacity: 0;
 }
-content section .radio-button-navigation{
-    width: 15%;
-    height: 80%;
-
-    /*background: red;*/
-
-    position: absolute;
-    right: 20px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+#assignment-pane-1{
+    background-color: #bc2a8d;
 }
-content section .radio-button-navigation .case-navigation-pane{
-    width: 100%;
-    height: 15%;
-
-    /*background-color: #4dc347;*/
-    margin-top:6.5px;
-    margin-bottom: 6.5px;
-
-    position: relative;
+#assignment-pane-2{
+    background-color: darkslategrey;
 }
-.case-navigation-pane input{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 5px;
-    margin: auto;
+#assignment-pane-3{
+    background-color: orange;
 }
-.case-navigation-pane hr{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 50px;
-    margin: auto;
-
-    rotate: 90deg;
-
-    height: 50px;
-    background-color: grey;
+#assignment-pane-4{
+    background-color: deepskyblue;
 }
-.case-navigation-pane label{
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    font-size: 1.3em;
-    -webkit-text-fill-color: grey;
-
-    position: absolute;
-    left: 15px;
-    top: 25%;
-}
-content section .case-pane{
-    width: 81%;
-    height: 94%;
-
-    /*background: #00aced;*/
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 15px;
-    margin: auto;
-}
-.case-pane .case-heading{
-    width: 20%;
-    height: 10%;
-
-    /*background-color: #bc2a8d;*/
-
-    position: relative;
-    left: 6px;
-    top: 10px;
-}
-.case-heading div{
-    height: 70%;
-    width: 10%;
-    background-color: grey;
-
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-}
-.case-heading h3{
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    font-size: 2em;
-    -webkit-text-fill-color: grey;
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 28px;
-    margin: auto;
-}
-.case-pane img{
-    width: 750px;
-    height: auto;
-
-    position: absolute;
-    top: 18%;
-    left: 2%;
-}
-.case-pane p{
-    position: absolute;
-    top: 20%;
-    right: 25px;
-    left: 72%;
-    bottom: 30%;
-
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    font-size: 1em;
-    -webkit-text-fill-color: darkslategray;
-}
-.case-pane a{
-    position: absolute;
-    left: 72%;
-    bottom: 15%;
-
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    font-size: 1em;
-    -webkit-text-fill-color: blue;
+.underline{
+    text-decoration: underline;
 }
 /*---------------------------footer---------------------------*/
 footer{
