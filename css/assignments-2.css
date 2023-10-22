@@ -111,6 +111,49 @@ header{
     rotate: 90deg;
     height: 45px;
 }
+/*case panes*/
+.case-pane{
+    width: 80%;
+    height: 100%;
+    background-color: #eebb5c;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.5%;
+}
+.case-pane-heading{
+    width: 20%;
+    height: 10%;
+
+    background-color: #3b5998;
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.case-pane-heading div{
+    width: 10%;
+    height: 80%;
+
+    background-color: grey;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.case-pane-heading h3{
+    position: absolute;
+    left: 15%;
+    top: -25px;
+
+    font-family: "Inter",sans-serif;
+    font-weight: 1000;
+    font-size: 2em;
+    -webkit-text-fill-color: grey;
+}
 /*----------------assignment pan 1----------------*/
 #assignment-pane-1{
     background-color: #bc2a8d;
@@ -118,12 +161,48 @@ header{
 #assignment-pane-1 .radio-navigation{
     background-color: #3b5998;
 }
+#assignment-1-case-1-pane{
+    opacity: 1;
+}
+#assignment-1-case-2-pane{
+    opacity: 0;
+}
+#assignment-1-case-3-pane{
+    opacity: 0;
+}
+#assignment-1-case-4-pane{
+    opacity: 0;
+}
+#assignment-1-case-5-pane{
+    opacity: 0;
+}
+#assignment-1-case-6-pane{
+    opacity: 0;
+}
 /*----------------assignment pan 2----------------*/
 #assignment-pane-2{
     background-color: darkslategrey;
 }
 #assignment-pane-2 .radio-navigation{
     background-color: lightblue;
+}
+#assignment-2-case-1-pane{
+    opacity: 1;
+}
+#assignment-2-case-2-pane{
+    opacity: 0;
+}
+#assignment-2-case-3-pane{
+    opacity: 0;
+}
+#assignment-2-case-4-pane{
+    opacity: 0;
+}
+#assignment-2-case-5-pane{
+    opacity: 0;
+}
+#assignment-2-case-6-pane{
+    opacity: 0;
 }
 /*----------------assignment pan 3----------------*/
 #assignment-pane-3{
@@ -138,6 +217,12 @@ header{
 }
 #assignment-pane-4 .radio-navigation{
     background-color: deeppink;
+}
+#assignment-3-case-1-pane{
+    opacity: 1;
+}
+#assignment-3-case-2-pane{
+    opacity: 0;
 }
 /*---------------------------footer---------------------------*/
 footer{
