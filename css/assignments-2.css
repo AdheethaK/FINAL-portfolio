@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: 70px;
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 
     position: absolute;
     top: 0;
@@ -57,7 +57,7 @@ content{
     width: 100%;
     height: 80%;
 
-    background: #3b5998;
+    /*background: #3b5998;*/
 
     position: absolute;
     top: 0;
@@ -66,11 +66,14 @@ content{
     right: 0;
     margin: auto;
 }
-content .radio-button-navigation{
+.case-pane{
+    opacity: 0;
+}
+content section .radio-button-navigation{
     width: 15%;
     height: 80%;
 
-    background: red;
+    /*background: red;*/
 
     position: absolute;
     right: 20px;
@@ -78,11 +81,11 @@ content .radio-button-navigation{
     bottom: 0;
     margin: auto;
 }
-content .radio-button-navigation .case-navigation-pane{
+content section .radio-button-navigation .case-navigation-pane{
     width: 100%;
     height: 15%;
 
-    background-color: #4dc347;
+    /*background-color: #4dc347;*/
     margin-top:6.5px;
     margin-bottom: 6.5px;
 
@@ -117,17 +120,80 @@ content .radio-button-navigation .case-navigation-pane{
     left: 15px;
     top: 25%;
 }
-content .case-pane{
+content section .case-pane{
     width: 81%;
     height: 94%;
 
-    background: #00aced;
+    /*background: #00aced;*/
 
     position: absolute;
     top: 0;
     bottom: 0;
     left: 15px;
     margin: auto;
+}
+.case-pane .case-heading{
+    width: 20%;
+    height: 10%;
+
+    /*background-color: #bc2a8d;*/
+
+    position: relative;
+    left: 6px;
+    top: 10px;
+}
+.case-heading div{
+    height: 70%;
+    width: 10%;
+    background-color: grey;
+
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.case-heading h3{
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    -webkit-text-fill-color: grey;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 28px;
+    margin: auto;
+}
+.case-pane img{
+    width: 750px;
+    height: auto;
+
+    position: absolute;
+    top: 18%;
+    left: 2%;
+}
+.case-pane p{
+    position: absolute;
+    top: 20%;
+    right: 25px;
+    left: 72%;
+    bottom: 30%;
+
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    -webkit-text-fill-color: darkslategray;
+}
+.case-pane a{
+    position: absolute;
+    left: 72%;
+    bottom: 15%;
+
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    -webkit-text-fill-color: blue;
 }
 /*---------------------------footer---------------------------*/
 footer{
@@ -182,4 +248,7 @@ footer{
     font-size: 1.5em;
     margin-right: 20px;
     -webkit-text-fill-color: #2E2328;
+}
+.underline{
+    text-decoration: underline;
 }
