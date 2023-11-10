@@ -266,15 +266,15 @@ button , input {
     background-size: 8em 6em;
 }
 .set_background_image_case_02{
-    background-image: url("/img/assignment-01_case-02.png") ;
+    background-image: url("/img/assignment-01_case-02.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_03{
-    background-image: url("/img/assignment-01_case-03.png") ;
+    background-image: url("/img/assignment-01_case-03.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_04{
-    background-image: url("/img/assignment-01_case-04.png") ;
+    background-image: url("/img/assignment-01_case-04.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_05{
@@ -286,31 +286,31 @@ button , input {
     background-size: 8em 6em;
 }
 .set_background_image_case_07{
-    background-image: url("/img/assignment-02_case-01.png") ;
+    background-image: url("/img/assignment-02_case-01.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_08{
-    background-image: url("/img/assignment-02_case-02.png") ;
+    background-image: url("/img/assignment-02_case-02.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_09{
-    background-image: url("/img/assignment-02_case-03.png") ;
+    background-image: url("/img/assignment-02_case-03.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_10{
-    background-image: url("/img/assignment-02_case-04.png") ;
+    background-image: url("/img/assignment-02_case-04.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_11{
-    background-image: url("/img/assignment-02_case-05.png") ;
+    background-image: url("/img/assignment-02_case-05.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_12{
-    background-image: url("/img/assignment-02_case-06.png") ;
+    background-image: url("/img/assignment-02_case-06.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_13{
-    background-image: url("/img/assignment-03_case-01.png") ;
+    background-image: url("/img/assignment-03_case-01.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_14{
@@ -318,7 +318,7 @@ button , input {
     background-size: 8em 6em;
 }
 .set_background_image_case_15{
-    background-image: url("/img/assignment-04_case-01.png") ;
+    background-image: url("/img/assignment-04_case-01.gif") ;
     background-size: 8em 6em;
 }
 /*----------------assignment-panes--------------*/
@@ -399,15 +399,15 @@ button , input {
 
 /*-------------------different cases----------------*/
 #case-02 > .case-img{
-    background-image: url("/img/assignment-01_case-02.png");
+    background-image: url("/img/assignment-01_case-02.gif");
     background-size: 100% ;
 }
 #case-03 > .case-img{
-    background-image: url("/img/assignment-01_case-03.png");
+    background-image: url("/img/assignment-01_case-03.gif");
     background-size: 100% ;
 }
 #case-04 > .case-img{
-    background-image: url("/img/assignment-01_case-04.png");
+    background-image: url("/img/assignment-01_case-04.gif");
     background-size: 100% ;
 }
 #case-05 > .case-img{
@@ -419,39 +419,39 @@ button , input {
     background-size: 100% ;
 }
 #case-07 > .case-img{
-    background-image: url("/img/assignment-02_case-01.png");
+    background-image: url("/img/assignment-02_case-01.gif");
     background-size: 100% ;
 }
 #case-08 > .case-img{
-    background-image: url("/img/assignment-02_case-02.png");
+    background-image: url("/img/assignment-02_case-02.gif");
     background-size: 100% ;
 }
 #case-09 > .case-img{
-    background-image: url("/img/assignment-02_case-03.png");
+    background-image: url("/img/assignment-02_case-03.gif");
     background-size: 100% ;
 }
 #case-10 > .case-img{
-    background-image: url("/img/assignment-02_case-04.png");
+    background-image: url("/img/assignment-02_case-04.gif");
     background-size: 100% ;
 }
 #case-11 > .case-img{
-    background-image: url("/img/assignment-02_case-05.png");
+    background-image: url("/img/assignment-02_case-05.gif");
     background-size: 100% ;
 }
 #case-12 > .case-img{
-    background-image: url("/img/assignment-02_case-06.png");
+    background-image: url("/img/assignment-02_case-06.gif");
     background-size: 100% ;
 }
 #case-13 > .case-img{
-    background-image: url("/img/assignment-03_case-01.png");
+    background-image: url("/img/assignment-03_case-01.gif");
     background-size: 100% ;
 }
 #case-14 > .case-img{
-    background-image: url("/img/assignment-03_case-01.png");
+    background-image: url("/img/assignment-03_case-02.png");
     background-size: 100% ;
 }
 #case-15 > .case-img{
-    background-image: url("/img/assignment-04_case-01.png");
+    background-image: url("/img/assignment-04_case-01.gif");
     background-size: 100% ;
 }
 .case{
