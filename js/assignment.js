@@ -71,50 +71,66 @@ class _3DRangeSlider{
                 value.textContent = this.value;
                 console.log(value)
                 remove_img();
+                remove_all_panes();
                 if(value.textContent == 1) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_01");
+                    $("#case-01").css("opacity","1")
                 }
                 if(value.textContent == 2) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_02");
+                    $("#case-02").css("opacity","1")
                 }
                 if(value.textContent == 3) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_03");
+                    $("#case-03").css("opacity","1")
                 }
                 if(value.textContent == 4) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_04");
+                    $("#case-04").css("opacity","1")
                 }
                 if(value.textContent == 5) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_05");
+                    $("#case-05").css("opacity","1")
                 }
                 if(value.textContent == 6) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_06");
+                    $("#case-06").css("opacity","1")
                 }
                 if(value.textContent == 7) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_07");
+                    $("#case-07").css("opacity","1")
                 }
                 if(value.textContent == 8) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_08");
+                    $("#case-08").css("opacity","1")
                 }
                 if(value.textContent == 9) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_09");
+                    $("#case-09").css("opacity","1")
                 }
                 if(value.textContent == 10) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_10");
+                    $("#case-10").css("opacity","1")
                 }
                 if(value.textContent == 11) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_11");
+                    $("#case-11").css("opacity","1")
                 }
                 if(value.textContent == 12) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_12");
+                    $("#case-12").css("opacity","1")
                 }
                 if(value.textContent == 13) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_13");
+                    $("#case-13").css("opacity","1")
                 }
                 if(value.textContent == 14) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_14");
+                    $("#case-14").css("opacity","1")
                 }
                 if(value.textContent == 15) {
                     $(".rs__handle").css("background-image","null").addClass("set_background_image_case_15");
+                    $("#case-15").css("opacity","1")
                 }
             }
         }
@@ -138,4 +154,21 @@ const remove_img = ()=>{
         .removeClass("set_background_image_case_13")
         .removeClass("set_background_image_case_14")
         .removeClass("set_background_image_case_15")
+}
+const remove_all_panes = ()=>{
+    $("#case-01").css("opacity","0");
+    $("#case-02").css("opacity","0");
+    $("#case-03").css("opacity","0");
+    $("#case-04").css("opacity","0");
+    $("#case-05").css("opacity","0");
+    $("#case-06").css("opacity","0");
+    $("#case-07").css("opacity","0");
+    $("#case-08").css("opacity","0");
+    $("#case-09").css("opacity","0");
+    $("#case-10").css("opacity","0");
+    $("#case-11").css("opacity","0");
+    $("#case-12").css("opacity","0");
+    $("#case-13").css("opacity","0");
+    $("#case-14").css("opacity","0");
+    $("#case-15").css("opacity","0");
 }

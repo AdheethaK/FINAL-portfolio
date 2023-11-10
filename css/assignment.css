@@ -33,7 +33,7 @@
     z-index: 9999;
 }
 #page-assignment>.dots{
-    width: 80%;
+    width: 40%;
     height: 85%;
     position: absolute;
     left: 20px;
@@ -320,4 +320,140 @@ button , input {
 .set_background_image_case_15{
     background-image: url("/img/assignment-04_case-01.png") ;
     background-size: 8em 6em;
+}
+/*----------------assignment-panes--------------*/
+.assignment-pane{
+    width: 30%;
+    height: 80%;
+    /*background-color: #bc2a8d;*/
+
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+    z-index: 99;
+}
+.assignment-pane > .case{
+    width: 98%;
+    height: 98%;
+    /*background-color: #7fd5f6;*/
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.case-img{
+    width: 95%;
+    height: 35%;
+
+    background-image: url("/img/assignment-01_case-01.png");
+    background-size: 100% ;
+
+    border-radius: 30px;
+    border: 1px solid black;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: auto;
+}
+.assignment-pane > .case > h3:first-of-type{
+    -webkit-text-fill-color: #2E2328;
+    font-size: 3.5vw;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    position: absolute;
+    top:180px;
+    left: 75px;
+}
+.assignment-pane > .case > p {
+     -webkit-text-fill-color: #2E2328;
+     font-size: 1vw;
+     font-family: "Inter",sans-serif;
+     font-weight: 900;
+     text-transform: uppercase;
+
+    position: absolute;
+    top:280px;
+    left: 10px;
+    right: 10px;
+ }
+.link{
+    position: absolute;
+    -webkit-text-fill-color: blue;
+    font-size: 2vw;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    text-decoration: underline;
+}
+.assignment-pane > .case > h3:nth-of-type(2){top: 380px; left: 100px;}
+.assignment-pane > .case > h3:nth-of-type(3){top: 410px; left: 110px;}
+
+/*-------------------different cases----------------*/
+#case-02 > .case-img{
+    background-image: url("/img/assignment-01_case-02.png");
+    background-size: 100% ;
+}
+#case-03 > .case-img{
+    background-image: url("/img/assignment-01_case-03.png");
+    background-size: 100% ;
+}
+#case-04 > .case-img{
+    background-image: url("/img/assignment-01_case-04.png");
+    background-size: 100% ;
+}
+#case-05 > .case-img{
+    background-image: url("/img/assignment-01_case-05.png");
+    background-size: 100% ;
+}
+#case-06 > .case-img{
+    background-image: url("/img/assignment-01_case-06.png");
+    background-size: 100% ;
+}
+#case-07 > .case-img{
+    background-image: url("/img/assignment-02_case-01.png");
+    background-size: 100% ;
+}
+#case-08 > .case-img{
+    background-image: url("/img/assignment-02_case-02.png");
+    background-size: 100% ;
+}
+#case-09 > .case-img{
+    background-image: url("/img/assignment-02_case-03.png");
+    background-size: 100% ;
+}
+#case-10 > .case-img{
+    background-image: url("/img/assignment-02_case-04.png");
+    background-size: 100% ;
+}
+#case-11 > .case-img{
+    background-image: url("/img/assignment-02_case-05.png");
+    background-size: 100% ;
+}
+#case-12 > .case-img{
+    background-image: url("/img/assignment-02_case-06.png");
+    background-size: 100% ;
+}
+#case-13 > .case-img{
+    background-image: url("/img/assignment-03_case-01.png");
+    background-size: 100% ;
+}
+#case-14 > .case-img{
+    background-image: url("/img/assignment-03_case-01.png");
+    background-size: 100% ;
+}
+#case-15 > .case-img{
+    background-image: url("/img/assignment-04_case-01.png");
+    background-size: 100% ;
+}
+.case{
+    opacity: 0;
 }
