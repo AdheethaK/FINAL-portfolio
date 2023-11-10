@@ -306,7 +306,7 @@ button , input {
     background-size: 8em 6em;
 }
 .set_background_image_case_12{
-    background-image: url("/img/assignment-02_case-06.gif") ;
+    background-image: url("/img/COMPRESSED_asg-02_c-06.gif") ;
     background-size: 8em 6em;
 }
 .set_background_image_case_13{
@@ -384,7 +384,7 @@ button , input {
     left: 10px;
     right: 10px;
  }
-.link{
+a{
     position: absolute;
     -webkit-text-fill-color: blue;
     font-size: 2vw;
@@ -394,8 +394,9 @@ button , input {
 
     text-decoration: underline;
 }
-.assignment-pane > .case > h3:nth-of-type(2){top: 380px; left: 100px;}
-.assignment-pane > .case > h3:nth-of-type(3){top: 410px; left: 110px;}
+.assignment-pane > .case > a:nth-of-type(1){top: 380px; left: 100px;}
+.assignment-pane > .case > a:nth-of-type(2){top: 410px; left: 110px;}
+.assignment-pane > .case > a:nth-of-type(3){top: 440px; left: 100px;}
 
 /*-------------------different cases----------------*/
 #case-02 > .case-img{
@@ -439,7 +440,7 @@ button , input {
     background-size: 100% ;
 }
 #case-12 > .case-img{
-    background-image: url("/img/assignment-02_case-06.gif");
+    background-image: url("/img/COMPRESSED_asg-02_c-06.gif");
     background-size: 100% ;
 }
 #case-13 > .case-img{

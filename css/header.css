@@ -1,28 +1,31 @@
-header>#menu>li{
-    font-family: Oxygen;
+header> #menu> a{
+    font-family: 'Ubuntu', sans-serif;
     -webkit-text-fill-color: grey;
     display: inline-block;
     margin-top: 3vh;
     margin-right: 5vw;
     margin-left: 5vw;
     margin-bottom: 3vh;
+
+    z-index: 99999;
+    text-decoration: none;
 }
-header>#menu>li:first-child{
+header>#menu>a:first-child{
     position: absolute;
     top: 0;
     left: 2vw;
 }
-header>#menu>li:nth-child(2){
+header>#menu>a:nth-child(2){
     position: absolute;
     top: 0;
     left: 20vw;
 }
-header>#menu>li:nth-child(4){
+header>#menu>a:nth-child(4){
     position: absolute;
     top: 0;
     right: 2vw;
 }
-header>#menu>li:nth-child(3){
+header>#menu>a:nth-child(3){
     position: absolute;
     top: 0;
     right: 25vw;
