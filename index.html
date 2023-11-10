@@ -5,22 +5,17 @@
     <title>HOME</title>
 
     <link rel="stylesheet" href="css/normalization.css">
-    <link rel="stylesheet" href="css/style_main.css">
-    <link rel="stylesheet" href="css/page-assignment.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about_me.css">
+    <link rel="stylesheet" href="css/assignment.css">
+    <link rel="stylesheet" href="css/visibility.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Tilt+Prism&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<!--<div id="box-1"></div>-->
-<!--<div id="box-2"></div>-->
-<!--<div id="box-3"></div>-->
-<!--<div id="box-4"></div>-->
-<!--<div id="box-5"></div>-->
-<!--<div id="box-6"></div>-->
-<!--<div id="box-7"></div>-->
-
 <header>
     <div id="menu">
         <li>HOME</li>
@@ -58,6 +53,7 @@
         </div>
     </section>
 </div>
+
 <div id="page-about-me">
     <div id="left-side">
         <p>I AM A STUDENT, A FULL-STACK DEVELOPER & AN APP DEVELOPER.</p>
@@ -119,27 +115,39 @@
         </div>
     </div>
 </div>
-<div id="page-assignment">
-    <h3>ASSIGNMENTS</h3>
 
-    <div id="select-assignment-section">
-        <div>
-            <h3>1</h3>
-        </div>
-        <div>
-            <h3>2</h3>
-        </div>
-        <div>
-            <h3>3</h3>
-        </div>
-        <div>
-            <h3>4</h3>
-        </div>
-        <div>
-            <h3>5</h3>
+<div id="page-assignment">
+    <h1>assignments</h1>
+    <div class="dots"></div>
+    <div class="assignment_sliders">
+        <div id="rs" class="rs rs--pristine">
+            <div class="rs__range-wrap">
+                <input class="rs__range" type="range" data-range>
+            </div>
+            <div class="rs__rings">
+                <button class="rs__handle" type="button" data-handle>
+                    <span class="rs__handle-valve" data-value></span>
+                </button>
+                <!-- 1--><div class="rs__ring"></div>
+                <!-- 2--><div class="rs__ring"></div>
+                <!-- 3--><div class="rs__ring"></div>
+                <!-- 4--><div class="rs__ring"></div>
+                <!-- 5--><div class="rs__ring"></div>
+                <!-- 6--><div class="rs__ring"></div>
+                <!-- 7--><div class="rs__ring"></div>
+                <!-- 8--><div class="rs__ring"></div>
+                <!-- 9--><div class="rs__ring"></div>
+                <!--10--><div class="rs__ring"></div>
+                <!--11--><div class="rs__ring"></div>
+                <!--12--><div class="rs__ring"></div>
+                <!--13--><div class="rs__ring"></div>
+                <!--14--><div class="rs__ring"></div>
+                <!--15--><div class="rs__ring"></div>
+            </div>
         </div>
     </div>
 </div>
+
 <div id="page-project">
     <h3>PROJECTS</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
@@ -150,5 +158,6 @@
 
 <script src="lib/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/assignment.js"></script>
 </body>
 </html>

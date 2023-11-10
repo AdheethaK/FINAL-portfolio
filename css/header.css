@@ -1,0 +1,51 @@
+header>#menu>li{
+    font-family: Oxygen;
+    -webkit-text-fill-color: grey;
+    display: inline-block;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+}
+header>#menu>li:first-child{
+    position: absolute;
+    top: 0;
+    left: 2vw;
+}
+header>#menu>li:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 20vw;
+}
+header>#menu>li:nth-child(4){
+    position: absolute;
+    top: 0;
+    right: 2vw;
+}
+header>#menu>li:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 25vw;
+}
+@media (min-width: 50em) {
+    header>#menu>li:first-child{
+        position: absolute;
+        top: 0;
+        left: 2vw;
+    }
+    header>#menu>li:nth-child(2){
+        position: absolute;
+        top: 0;
+        left: 23vw;
+    }
+    header>#menu>li:nth-child(4){
+        position: absolute;
+        top: 0;
+        right: 5vw;
+    }
+    header>#menu>li:nth-child(3){
+        position: absolute;
+        top: 0;
+        right: 30vw;
+    }
+}

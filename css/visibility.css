@@ -1,0 +1,15 @@
+/*#page-about-me{*/
+/*    opacity: 0;*/
+/*}*/
+#page-home{
+    opacity: 1;
+}
+#page-assignment{
+    opacity: 1;
+}
+#page-project{
+    opacity: 0;
+}
+#page-contact{
+    opacity: 0.9;
+}
