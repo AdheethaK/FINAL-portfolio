@@ -1,4 +1,4 @@
-header> #menu> a{
+header > #menu> a{
     font-family: 'Ubuntu', sans-serif;
     -webkit-text-fill-color: grey;
     display: inline-block;
@@ -10,12 +10,12 @@ header> #menu> a{
     z-index: 99999;
     text-decoration: none;
 }
-header>#menu>a:first-child{
+header >#menu >a:first-child{
     position: absolute;
     top: 0;
     left: 2vw;
 }
-header>#menu>a:nth-child(2){
+header >#menu>a:nth-child(2){
     position: absolute;
     top: 0;
     left: 20vw;
