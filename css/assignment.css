@@ -28,7 +28,7 @@
 }
 #page-assignment>.dots{
     width: 40%;
-    height: 85%;
+    height: 97%;
     position: absolute;
     left: 20px;
     top: 40px;
@@ -42,7 +42,7 @@
     background-color: #ADADAD;
 
     position: absolute;
-    bottom: 0%;
+    bottom: 2.5%;
     left: 0;
     right: 0;
     margin: auto;
@@ -131,10 +131,9 @@
     background-size: 100% 100%;
 }
 .grid-item>p{
-    -webkit-text-fill-color: lightgrey;
+    -webkit-text-fill-color: white;
     font-size: 2em;
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
+    font-family: Oxygen;
 }
 .grid-item>p:first-of-type{
     position: absolute;
@@ -151,15 +150,20 @@
 .grid-item>p:nth-of-type(3){
     position: absolute;
 
-    top: 75%;
+    top: 79%;
+    left: 6%;
+}
+.grid-item>p:nth-of-type(4){
+    position: absolute;
+
+    top: 86%;
     left: 6%;
 }
 .grid-item>a{
     position: absolute;left: 6%;
     -webkit-text-fill-color: cornflowerblue;
-    font-size: 2.5em;
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
+    font-size: 1.8em;
+    font-family: Oxygen;
 }
 .grid-item>a:first-of-type{top: 63%;}
 .grid-item>a:nth-of-type(2){top: 68%;}
@@ -167,14 +171,12 @@
 
 .grid-item>h2{
     position: absolute;
-
-    top: 63%;
-    right: 12%;
-
     -webkit-text-fill-color: black;
     font-size: 1.8em;
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
+    font-family: Oxygen;
 }
+.grid-item>h2:first-of-type{top: 63%;right: 12%;}
+.grid-item>h2:nth-of-type(2){top: 80%;left: 40%;}
+.grid-item>h2:nth-of-type(3){top: 88%;left: 32%;}
 
 
