@@ -32,10 +32,13 @@
     font-family: "Inter",sans-serif;
     font-weight: 900;
     display: flex;
-    justify-content: center;
-    align-content: center;
+
+    position: absolute;
+    right:-5%;
 
     animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
+
+    z-index: 999;
 }
 #label-technology{
     font-family: Oxygen;
@@ -125,7 +128,7 @@
     right: 0;
     margin: auto;
 
-    background-color: #000000; /*#ADADAD*/
+    background-color: white; /*#ADADAD*/
     width: 70%;
     aspect-ratio: 1/1;
     border-radius: 40px;
