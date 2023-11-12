@@ -185,9 +185,6 @@
     bottom: 0;
     margin: auto;
 
-    /*border-radius: 30px;*/
-    /*border: 3px solid #2E2328;*/
-    /*box-shadow: 5.5px 5.5px 0 0 #2E2328;*/
 }
 #hpms-panes>.hpms-img-pane:first-of-type{
     /*background-color: yellow;*/
@@ -461,7 +458,7 @@
 #book-store-prj{
     position: absolute;
     top: 180vh;
-    background-color: #3b5998;
+    background-color: lightgrey;
 
     height: 80vh;
     width: 100%;
@@ -499,6 +496,164 @@
     transform: rotate(270deg);
 
     z-index: 9999;
+}
+
+#book-store-panes{
+    width: 80%;
+    height: 60vh;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: transparent;
+
+    overflow: hidden;
+}
+#book-store-panes>.book-store-img-pane{
+    width: 80%;
+    height: 60vh;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#book-store-panes>.book-store-img-pane:first-of-type{
+    /*background-color: yellow;*/
+    animation: book-store-slider-1st-frame 50s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+#book-store-panes>.book-store-img-pane:nth-of-type(2){
+    transform: translateX(80vw);
+    /*background-color: teal;*/
+    animation: book-store-slider-2nd-frame 50s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+#book-store-panes>.book-store-img-pane:nth-of-type(3){
+    transform: translateX(160vw);
+    /*background-color: lightsalmon;*/
+    animation: book-store-slider-3rd-frame 50s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+#book-store-panes>.book-store-img-pane:nth-of-type(4){
+    transform: translateX(240vw);
+    /*background-color: orchid;*/
+    animation: book-store-slider-4th-frame 50s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+#book-store-panes>.book-store-img-pane:nth-of-type(5){
+    transform: translateX(320vw);
+    /*background-color: darksalmon;*/
+    animation: book-store-slider-5th-frame 50s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+@keyframes book-store-slider-1st-frame {
+    0%  {transform: translateX(  0vw);}
+    10% {transform: translateX( -80vw);}
+    20% {transform: translateX(-160vw);}
+    30% {transform: translateX(-240vw);}
+    40% {transform: translateX(-320vw);}
+    50% {transform: translateX(-400vw);}
+    60% {transform: translateX(-320vw);}
+    70% {transform: translateX(-240vw);}
+    80% {transform: translateX(-160vw);}
+    90% {transform: translateX( -80vw);}
+    100%{transform: translateX(  0vw);}
+}
+@keyframes book-store-slider-2nd-frame {
+    0%  {transform: translateX(  80vw);}
+    10% {transform: translateX(   0vw);}
+    20% {transform: translateX( -80vw);}
+    30% {transform: translateX(-160vw);}
+    40% {transform: translateX(-240vw);}
+    50% {transform: translateX(-320vw);}
+    60% {transform: translateX(-240vw);}
+    70% {transform: translateX(-160vw);}
+    80% {transform: translateX( -80vw);}
+    90% {transform: translateX(  0vw);}
+    100%{transform: translateX( 80vw);}
+}
+@keyframes book-store-slider-3rd-frame {
+    0%  {transform: translateX( 160vw);}
+    10% {transform: translateX(  80vw);}
+    20% {transform: translateX(   0vw);}
+    30% {transform: translateX( -80vw);}
+    40% {transform: translateX(-160vw);}
+    50% {transform: translateX(-240vw);}
+    60% {transform: translateX(-160vw);}
+    70% {transform: translateX( -80vw);}
+    80% {transform: translateX(   0vw);}
+    90% {transform: translateX(  80vw);}
+    100%{transform: translateX( 160vw);}
+}
+@keyframes book-store-slider-4th-frame {
+    0%  {transform: translateX( 240vw);}
+    10% {transform: translateX( 160vw);}
+    20% {transform: translateX(  80vw);}
+    30% {transform: translateX(   0vw);}
+    40% {transform: translateX( -80vw);}
+    50% {transform: translateX(-160vw);}
+    60% {transform: translateX( -80vw);}
+    70% {transform: translateX(   0vw);}
+    80% {transform: translateX(  80vw);}
+    90% {transform: translateX( 160vw);}
+    100%{transform: translateX( 240vw);}
+}
+@keyframes book-store-slider-5th-frame {
+    0%  {transform: translateX( 320vw);}
+    10% {transform: translateX( 240vw);}
+    20% {transform: translateX( 160vw);}
+    30% {transform: translateX(  80vw);}
+    40% {transform: translateX(   0vw);}
+    50% {transform: translateX( -80vw);}
+    60% {transform: translateX(   0vw);}
+    70% {transform: translateX(  80vw);}
+    80% {transform: translateX( 160vw);}
+    90% {transform: translateX( 240vw);}
+    100%{transform: translateX( 320vw);}
+}
+
+#book-store-panes >.book-store-img-pane>.book-store-img{
+    width: 80%;
+    height: 55vh;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    border-radius: 30px;
+    border: 3px solid #2E2328;
+    box-shadow: 5.5px 5.5px 0 0 #2E2328;
+
+}
+#book-store-img-1{
+    background-image: url("/img/book-store/book-store-img-01.png");
+    background-size: 100% 100%;
+}
+#book-store-img-2{
+    background-image: url("/img/book-store/book-store-img-02.png");
+    background-size: 100% 100%;
+}
+#book-store-img-3{
+    background-image: url("/img/book-store/book-store-img-03.png");
+    background-size: 100% 100%;
+}
+#book-store-img-4{
+    background-image: url("/img/book-store/book-store-img-04.png");
+    background-size: 100% 100%;
+}
+#book-store-img-5{
+    background-image: url("/img/book-store/book-store-img-05.png");
+    background-size: 100% 100%;
 }
 /*---------------d24---------------*/
 #d24-prj{
@@ -542,4 +697,19 @@
     transform: rotate(270deg);
 
     z-index: 9999;
+}
+#d24-panes{
+    width: 80%;
+    height: 60vh;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    background-color: #82d47e;
+
+    overflow: hidden;
 }
