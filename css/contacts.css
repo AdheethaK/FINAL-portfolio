@@ -1,0 +1,46 @@
+#CONTACT{
+    position: absolute;
+    top: 890vh;
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    overflow-y: hidden;
+}
+#CONTACT > h1{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+
+    -webkit-text-fill-color: #2E2328;
+    font-size: 8vw;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+    display: flex;
+
+    /*animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;*/
+}
+#CONTACT > .contacts-list-page{
+    position: absolute;
+    right: 25%;
+    top: 60%;
+
+    padding: 10px;
+
+    color: #2E2328;
+    cursor: pointer;
+}
+
+.contacts-list-page > i{
+    margin: 8px;
+}
+.contacts-list-page > i:hover{
+    color: deeppink;
+    -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
