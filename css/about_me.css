@@ -26,7 +26,8 @@
     left: 45px;
     top: 100px;
 }
-#left-side>h6{
+#p-about-me{opacity: 0}
+#left-side>.about-me-label{
     -webkit-text-fill-color: #2E2328;
     font-size: 8vw;
     font-family: "Inter",sans-serif;
@@ -172,4 +173,107 @@
     #get-width-screen{
         background-color: greenyellow;
     }
+    #left-side{
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+
+        background-color: transparent;
+
+        width: 100%;
+        height: 50%;
+
+        z-index: 99999;
+    }
+    #right-side{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        background-color: transparent;
+
+        width: 100%;
+        height: 50%;
+    }
+    #left-side>p:first-of-type{
+        position: absolute;
+        left: 7%;
+        right: 7%;
+        top: 1%;
+        bottom: 60%;
+        opacity: 1;
+
+        font-size: 0.9em;
+        text-align: center;
+    }
+    #left-side>p:nth-of-type(2){opacity: 0;}
+    #p-about-me{
+        position: absolute;
+        left: 7%;
+        right: 7%;
+        top: 20%;
+        bottom: 30%;
+        opacity: 1;
+
+        font-size: 0.8em;
+
+        text-align: center;
+        font-family: Oxygen;
+        -webkit-text-fill-color: #ADADAD;
+    }
+
+    /*about me*/
+    #left-side>.about-me-label{
+        opacity: 0;
+        font-size: 3em;
+
+        -ms-transform:rotate(10deg);
+        animation: none;
+    }
+    #label-technology{opacity: 0;}
+    #technology-grid{opacity: 1;}
+    #technology-grid>div{
+        width: 30px;
+        height: auto;
+        margin: 1.5px;
+
+        position: relative;
+        bottom: 270px;
+        right: 55px;
+    }
+    #label-contact{opacity: 0}
+
+    #left-side>.contacts-list{opacity: 0}
+
+    /*right side*/
+    #right-side>.dots{
+        opacity: 1;
+        position: absolute;
+        top: 120px;
+        left: 20px;
+
+        width: 100px;
+        aspect-ratio: 1/2;
+    }
+    #right-side>.photo-background{
+        opacity: 1;
+
+        top: 130px;
+        right: 15px;
+    }
+
+    /*photo*/
+    #right-side>.photo{
+        opacity: 1;
+        position: relative;
+        top: 145px;
+        right: 180px;
+    }
+    #right-side>.photo>img{border-radius: 30px;}
+    #page-about-me{
+        overflow: hidden;
+    }
+
 }
