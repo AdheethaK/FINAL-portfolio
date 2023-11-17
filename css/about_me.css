@@ -168,3 +168,8 @@
     z-index: 99;
     animation: floating 7s cubic-bezier(0.37,0,0.63,1) infinite;
 }
+@media (min-width: 320px) {
+    #get-width-screen{
+        background-color: greenyellow;
+    }
+}
