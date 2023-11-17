@@ -44,3 +44,8 @@
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
 }
+@media (min-width: 320px) {
+    #CONTACT{
+        top: 1680vh;
+    }
+}

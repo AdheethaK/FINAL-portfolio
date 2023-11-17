@@ -40,6 +40,7 @@
     opacity: 0.4;
     background-image: -webkit-repeating-radial-gradient(circle,pink,pink 3px,transparent 3px,transparent 100%);
 }
+
 .assignment-pane{
     width: 98%;
     height: 90%;
@@ -244,5 +245,48 @@
 .grid-item>h2:first-of-type{top: 63%;right: 12%;}
 .grid-item>h2:nth-of-type(2){top: 80%;left: 40%;}
 .grid-item>h2:nth-of-type(3){top: 88%;left: 32%;}
+
+@media (min-width: 320px) {
+    #page-assignment{
+        height: 1200vh;
+    }
+    #page-assignment>h1{
+        opacity: 1;
+        font-size: 11vw;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0.5%;
+        margin: auto;
+    }
+    #page-assignment>.dots{
+        opacity: 1;
+
+        width: 80%;
+        height: 92.5%;
+        position: absolute;
+        left: 10px;
+        top: 90px;
+    }
+    #page-assignment>.assignment-pane{
+        position: absolute;
+        top: -100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: auto;
+
+        background-color: transparent;
+        height: 92%;
+    }
+    #page-assignment>.assignment-pane>.grid-item{
+        height: 300px;
+    }
+    .grid-item>h2:nth-of-type(2){top: 81%;left: 53%;}
+    .grid-item>h2:nth-of-type(3){top: 88%;left: 45%;}
+}
 
 

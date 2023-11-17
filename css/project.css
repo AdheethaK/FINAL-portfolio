@@ -855,3 +855,9 @@
 #d24-img-4{background-image: url("/img/d24hostel/d24-img-06.png");background-size: 100% 100%;}
 #d24-img-5{background-image: url("/img/d24hostel/d24-img-07.png");background-size: 100% 100%;}
 #d24-img-6{background-image: url("/img/d24hostel/d24-img-08.png");background-size: 100% 100%;}
+
+@media (min-width: 320px) {
+    #PRJ{
+        top: 1340vh;
+    }
+}
