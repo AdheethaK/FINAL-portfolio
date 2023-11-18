@@ -1,160 +1,3 @@
-#page-about-me{
-    position: absolute;
-    top: 100vh;
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    overflow-y: hidden;
-}
-#left-side{
-    height: 100%;
-    width: 50%;
-    background-color: white;
-    position: absolute;
-}
-#left-side>p:first-child{
-    font-family: Oxygen;
-    -webkit-text-fill-color: grey;
-    position: absolute;
-    left: 45px;
-    top: 80px;
-}
-#left-side>p:nth-child(2){
-    font-family: Oxygen;
-    -webkit-text-fill-color: #ADADAD;
-    position: absolute;
-    left: 45px;
-    top: 100px;
-}
-#p-about-me{opacity: 0}
-#left-side>.about-me-label{
-    -webkit-text-fill-color: #2E2328;
-    font-size: 8vw;
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    display: flex;
-
-    position: absolute;
-    right:-5%;
-
-    animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
-
-    z-index: 999;
-}
-#label-technology{
-    font-family: Oxygen;
-    -webkit-text-fill-color: grey;
-    position: absolute;
-    left: 45px;
-    top: 420px;
-    opacity: 0;
-}
-#technology-grid{
-    display: grid;
-    grid-template-columns: repeat(9,1fr);
-    position: absolute;
-    top: 465px;
-    left: 60px;
-    -webkit-text-fill-color: grey;
-    opacity: 0.8;
-}
-#technology-grid>div{
-    width: 50px;
-    aspect-ratio: 1/1;
-    position: relative;
-    margin: 5px;
-}
-.img-label{
-    width: 100%;
-    height: auto;
-    margin: 5px;
-}
-#technology-grid>div>p{
-    font-family: Oxygen;
-    font-size: 12px;
-    position: absolute;
-    left: 58px;
-    top: 6px;
-}
-#label-contact{
-    font-family: Oxygen;
-    position: absolute;
-    left: 40px;
-    top: 550px;
-
-    -webkit-text-fill-color: #2E2328;
-    font-size: 3vw;
-    font-family: "Inter",sans-serif;
-    font-weight: 900;
-    display: flex;
-
-    /*animation: floating 10s cubic-bezier(0.37,0,0.63,1) infinite;*/
-}
-.contacts-list{
-    color: #2E2328;
-    cursor: pointer;
-    position: absolute;
-    left: 330px;
-    top: 590px;
-}
-.contacts-list > i{
-    margin: 8px;
-}
-.contacts-list > i:hover{
-    color: #ef43a1;
-    -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-}
-#right-side{
-    position: absolute;
-    right: 0;
-    top: 0;
-
-    height: 100%;
-    width: 50%;
-    background-color: white;
-}
-.photo{
-    position: absolute;
-
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-    background-color: white; /*#ADADAD*/
-    width: 70%;
-    aspect-ratio: 1/1;
-    border-radius: 40px;
-    z-index: 100;
-}
-.photo>img{
-    position: absolute;
-
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.photo-background{
-    position: absolute;
-
-    top: 40px;
-    right: 20px;
-
-    background-color: pink;
-    width: 70%;
-    aspect-ratio: 1/1;
-    border-radius: 40px;
-}
 .dots{
     background-image: -webkit-repeating-radial-gradient(circle,#2E2328,#2E2328 3px,transparent 3px,transparent 100%);
     background-size: 13px 16px;
@@ -169,11 +12,21 @@
     z-index: 99;
     animation: floating 7s cubic-bezier(0.37,0,0.63,1) infinite;
 }
+/*--------------media queries----------------------*/
 @media (min-width: 320px) {
-    #get-width-screen{
-        background-color: greenyellow;
+    #LEFT{opacity: 0}
+    #RIGHT{opacity: 0}
+    #page-about-me{
+        position: absolute;
+        top: 100vh;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        overflow-y: hidden;
     }
+    /*-------------------*/
     #left-side{
+        position: absolute;
         left: 0;
         right: 0;
         top: 0;
@@ -186,9 +39,114 @@
 
         z-index: 99999;
     }
+    /*------------------------------*/
+
+    /*----------------------*/
+    #left-side>p:first-child{
+        font-family: Oxygen;
+        -webkit-text-fill-color: grey;
+        position: absolute;
+        left: 45px;
+        top: 80px;
+    }
+    #left-side>p:nth-child(2){
+        font-family: Oxygen;
+        -webkit-text-fill-color: #ADADAD;
+        position: absolute;
+        left: 45px;
+        top: 100px;
+    }
+    #p-about-me{opacity: 0}
+    #left-side>.about-me-label{
+        -webkit-text-fill-color: #2E2328;
+        font-size: 8vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        position: absolute;
+        right:-5%;
+
+        animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
+
+        z-index: 999;
+    }
+    #label-technology{
+        font-family: Oxygen;
+        -webkit-text-fill-color: grey;
+        position: absolute;
+        left: 45px;
+        top: 420px;
+        opacity: 0;
+    }
+    #technology-grid{
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        position: absolute;
+        top: 465px;
+        left: 60px;
+        -webkit-text-fill-color: grey;
+        opacity: 0.8;
+    }
+    #technology-grid>div{
+        width: 50px;
+        aspect-ratio: 1/1;
+        position: relative;
+        margin: 5px;
+    }
+    .img-label{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+    #technology-grid>div>p{
+        font-family: Oxygen;
+        font-size: 12px;
+        position: absolute;
+        left: 58px;
+        top: 6px;
+    }
+    #label-contact{
+        font-family: Oxygen;
+        position: absolute;
+        left: 40px;
+        top: 550px;
+
+        -webkit-text-fill-color: #2E2328;
+        font-size: 3vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        /*animation: floating 10s cubic-bezier(0.37,0,0.63,1) infinite;*/
+    }
+    .contacts-list{
+        color: #2E2328;
+        cursor: pointer;
+        position: absolute;
+        left: 330px;
+        top: 590px;
+    }
+    .contacts-list > i{
+        margin: 8px;
+    }
+    .contacts-list > i:hover{
+        color: #ef43a1;
+        -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
     #right-side{
-        left: 0;
+        position: absolute;
         right: 0;
+        top: 0;
+        left: 0;
         bottom: 0;
         margin: auto;
 
@@ -197,6 +155,45 @@
         width: 100%;
         height: 50%;
     }
+    .photo{
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        background-color: white; /*#ADADAD*/
+        width: 70%;
+        aspect-ratio: 1/1;
+        border-radius: 40px;
+        z-index: 100;
+    }
+    .photo>img{
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .photo-background{
+        position: absolute;
+
+        top: 40px;
+        right: 20px;
+
+        background-color: pink;
+        width: 70%;
+        aspect-ratio: 1/1;
+        border-radius: 40px;
+    }
+
+
+
+    /*-------------------------*/
     #left-side>p:first-of-type{
         position: absolute;
         left: 7%;
@@ -275,5 +272,427 @@
     #page-about-me{
         overflow: hidden;
     }
+}
+@media (min-width: 375px) {
+    #LEFT{opacity: 0}
+    #RIGHT{opacity: 0}
+    #right-side>.photo-background{
+        opacity: 1;
+
+        top: 98px;
+        right: 25px;
+    }
+
+    /*photo*/
+    #right-side>.photo{
+        opacity: 1;
+        position: relative;
+        top: 105px;
+        right: 180px;
+    }
+    #technology-grid>div{
+        width: 30px;
+        height: auto;
+        margin: 1.5px;
+
+        position: relative;
+        bottom: 290px;
+        right: 32px;
+    }
+}
+@media (min-width: 425px) {
+    #LEFT{opacity: 0}
+    #RIGHT{opacity: 0}
+    #page-about-me{
+        position: absolute;
+        top: 100vh;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        overflow-y: hidden;
+    }
+    /*-------------------*/
+    #left-side{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+
+        background-color: transparent;
+
+        width: 100%;
+        height: 50%;
+
+        z-index: 99999;
+    }
+    /*------------------------------*/
+
+    /*----------------------*/
+    #left-side>p:first-child{
+        font-family: Oxygen;
+        -webkit-text-fill-color: grey;
+        position: absolute;
+        left: 45px;
+        top: 80px;
+    }
+    #left-side>p:nth-child(2){
+        font-family: Oxygen;
+        -webkit-text-fill-color: #ADADAD;
+        position: absolute;
+        left: 45px;
+        top: 100px;
+    }
+    #p-about-me{opacity: 0}
+    #left-side>.about-me-label{
+        -webkit-text-fill-color: #2E2328;
+        font-size: 8vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        position: absolute;
+        right:-5%;
+
+        animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
+
+        z-index: 999;
+    }
+    #label-technology{
+        font-family: Oxygen;
+        -webkit-text-fill-color: grey;
+        position: absolute;
+        left: 45px;
+        top: 420px;
+        opacity: 0;
+    }
+    #technology-grid{
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        position: absolute;
+        top: 465px;
+        left: 60px;
+        -webkit-text-fill-color: grey;
+        opacity: 0.8;
+    }
+    #technology-grid>div{
+        width: 50px;
+        aspect-ratio: 1/1;
+        position: relative;
+        margin: 5px;
+    }
+    .img-label{
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+    #technology-grid>div>p{
+        font-family: Oxygen;
+        font-size: 12px;
+        position: absolute;
+        left: 58px;
+        top: 6px;
+    }
+    #label-contact{
+        font-family: Oxygen;
+        position: absolute;
+        left: 40px;
+        top: 550px;
+
+        -webkit-text-fill-color: #2E2328;
+        font-size: 3vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        /*animation: floating 10s cubic-bezier(0.37,0,0.63,1) infinite;*/
+    }
+    .contacts-list{
+        color: #2E2328;
+        cursor: pointer;
+        position: absolute;
+        left: 330px;
+        top: 590px;
+    }
+    .contacts-list > i{
+        margin: 8px;
+    }
+    .contacts-list > i:hover{
+        color: #ef43a1;
+        -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    #right-side{
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+
+        background-color: transparent;
+
+        width: 100%;
+        height: 50%;
+    }
+    .photo{
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        background-color: white; /*#ADADAD*/
+        width: 60%;
+        aspect-ratio: 1/1;
+        border-radius: 40px;
+        z-index: 100;
+    }
+    .photo>img{
+        position: absolute;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .photo-background{
+        position: absolute;
+
+        top: 40px;
+        right: 20px;
+
+        background-color: pink;
+        width: 60%;
+        aspect-ratio: 1/1;
+        border-radius: 40px;
+    }
+
+
+
+    /*-------------------------*/
+    #left-side>p:first-of-type{
+        position: absolute;
+        left: 7%;
+        right: 7%;
+        top: 1%;
+        bottom: 60%;
+        opacity: 1;
+
+        font-size: 0.9em;
+        text-align: center;
+    }
+    #left-side>p:nth-of-type(2){opacity: 0;}
+    #p-about-me{
+        position: absolute;
+        left: 7%;
+        right: 7%;
+        top: 20%;
+        bottom: 30%;
+        opacity: 1;
+
+        font-size: 0.8em;
+
+        text-align: center;
+        font-family: Oxygen;
+        -webkit-text-fill-color: #ADADAD;
+    }
+
+    /*about me*/
+    #left-side>.about-me-label{
+        opacity: 0;
+        font-size: 3em;
+
+        -ms-transform:rotate(10deg);
+        animation: none;
+    }
+    #label-technology{opacity: 0;}
+    #technology-grid{opacity: 1;}
+    #technology-grid>div{
+        width: 30px;
+        height: auto;
+        margin: 1.5px;
+
+        position: relative;
+        bottom: 310px;
+        right: 5px;
+    }
+    #label-contact{opacity: 0}
+
+    #left-side>.contacts-list{opacity: 0}
+
+    /*right side*/
+    #right-side>.dots{
+        opacity: 1;
+        position: absolute;
+        top: 120px;
+        left: 6px;
+
+        width: 100px;
+        aspect-ratio: 1/2;
+    }
+    #right-side>.photo-background{
+        opacity: 1;
+
+        top: 80px;
+        right: 63px;
+    }
+
+    /*photo*/
+    #right-side>.photo{
+        opacity: 1;
+        position: relative;
+        top: 100px;
+        right: 340px;
+        /*border: 1px solid black;*/
+    }
+    #right-side>.photo>img{border-radius: 30px;}
+    #page-about-me{
+        overflow: hidden;
+    }
+}
+@media (min-width: 700px) {
+    #left-side{opacity: 0}
+    #right-side{opacity: 0}
+
+    #LEFT{
+        opacity: 1;
+        background-color: transparent;
+
+        width: 50%;
+        height: 100%;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #LEFT>p:nth-of-type(1){
+        opacity: 1;
+        margin: 10px;
+        font-family: Oxygen;
+        -webkit-text-fill-color: grey;
+
+        position: absolute;
+        top: 60px;
+        left: 12px;
+
+        font-size: 1em;
+    }
+    #LEFT>p:nth-of-type(2){
+        opacity: 1;
+        font-family: Oxygen;
+        -webkit-text-fill-color:  #ADADAD;
+
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        font-size: 0.6em;
+        text-align: left;
+    }
+    #LEFT>.about-me-label{
+        opacity: 1;
+        -webkit-text-fill-color: #2E2328;
+        font-size: 8vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        position: absolute;
+        top: 32%;
+        right:-4%;
+
+        animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;
+
+        z-index: 999;
+    }
+    #LEFT>.label-technology{
+        opacity: 0;
+        position: absolute;
+        top: 74.5%;
+        left: 12px;
+
+        -webkit-text-fill-color: #2E2328;
+        font-size: 2vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+    }
+    #LEFT>.technology-grid{
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        position: absolute;
+        top: 75%;
+        left: 10px;
+        -webkit-text-fill-color: grey;
+        opacity: 0.8;
+
+        z-index: 9999;
+    }
+    #LEFT>.technology-grid>div{
+        width: 25px;
+        padding: 5px;
+    }
+    #LEFT>.label-contact{
+        opacity: 0;
+    }
+    #LEFT>.contacts-list{
+        opacity: 0;
+    }
+
+    /*-------RIGHT---------*/
+    #RIGHT{
+        opacity: 1;
+        background-color: transparent;
+
+        width: 50%;
+        height: 100%;
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #RIGHT>.photo{
+        opacity: 1;
+        border-radius: 30px;
+        background-color: transparent;
+    }
+    #RIGHT>.photo-background{
+        opacity: 1;
+
+        position: absolute;
+        left: 30%;
+        top: 15%;
+    }
+    #RIGHT>.photo>img{
+        border-radius: 30px;
+    }
+    #RIGHT>.dots{
+        opacity: 1;
+        width: 300px;
+        height: 400px;
+    }
+}
+@media (min-width: 768px) {
 
 }
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1440px) {
+
+}
+/*-----------------------------------------------*/
+

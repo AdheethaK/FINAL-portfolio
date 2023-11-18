@@ -1,0 +1,21 @@
+@media (min-width: 320px) {
+    #get-width-screen{background-color: greenyellow}
+}
+@media (min-width: 375px) {
+    #get-width-screen{background-color: purple}
+}
+@media (min-width: 425px) {
+    #get-width-screen{background-color: cornflowerblue}
+}
+@media (min-width: 700px) {
+    #get-width-screen{background-color: #59454F}
+}
+@media (min-width: 768px) {
+    #get-width-screen{background-color: orange}
+}
+@media (min-width: 1024px) {
+    #get-width-screen{background-color: deeppink}
+}
+@media (min-width: 1440px) {
+    #get-width-screen{background-color: blue}
+}

@@ -44,8 +44,126 @@
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
 }
+
+/*-------media queries----------*/
 @media (min-width: 320px) {
     #CONTACT{
+        position: absolute;
         top: 1680vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
+    }
+    #CONTACT > h1{
+        position: absolute;
+        left: 5%;
+        top: 40%;
+
+        -webkit-text-fill-color: #2E2328;
+        font-size: 20vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        /*animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;*/
+    }
+    #CONTACT > .contacts-list-page{
+        position: absolute;
+        right: 5%;
+        top: 40%;
+
+        padding: 10px;
+
+        color: #2E2328;
+        cursor: pointer;
+        font-size: 4vw;
+    }
+}
+@media (min-width: 375px) {
+    #CONTACT{
+        position: absolute;
+        top: 1660vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
+    }
+    #CONTACT > h1{
+        position: absolute;
+        left: 5%;
+        top: 40%;
+
+        -webkit-text-fill-color: #2E2328;
+        font-size: 20vw;
+        font-family: "Inter",sans-serif;
+        font-weight: 900;
+        display: flex;
+
+        /*animation: floating 5s cubic-bezier(0.37,0,0.63,1) infinite;*/
+    }
+    #CONTACT > .contacts-list-page{
+        opacity: 1;
+        position: absolute;
+        right: 5%;
+        top: 40%;
+
+        padding: 10px;
+
+        color: #2E2328;
+        cursor: pointer;
+        font-size: 4vw;
+    }
+}
+@media (min-width: 425px) {
+    #CONTACT{
+        position: absolute;
+        top: 1160vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
+    }
+    #CONTACT > .contacts-list-page{
+        opacity: 1;
+        position: absolute;
+        right: 15%;
+        top: 40%;
+
+        padding: 10px;
+
+        color: #2E2328;
+        cursor: pointer;
+        font-size: 4vw;
+    }
+}
+@media (min-width: 768px) {
+    #CONTACT{
+        position: absolute;
+        top: 890vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
+    }
+}
+@media (min-width: 1024px) {
+    #CONTACT{
+        position: absolute;
+        top: 200vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
+    }
+}
+@media (min-width: 1440px) {
+    #CONTACT{
+        position: absolute;
+        top: 200vh;
+        height: 100vh;
+        width: 100%;
+        background-color: pink;
+        overflow-y: hidden;
     }
 }
